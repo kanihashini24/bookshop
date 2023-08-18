@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.ex1 {
+direction: rtl;
+unicode-bidi: bidi-override;
+text-decoration-line: overline;
+text-decoration-color: red;
+text-decoration-style: wavy;  
+text-transform: uppercase;
+
+}
+h1{
+text-decoration-line: overline underline;
+text-decoration-color: purple; 
+text-decoration-style: double; 
+text-transform: capitalize;
+margin-top:40px;
+
+}
+.jeni{
+color:red;
+
+border:2px solid red;
+border-radius:15px;
+padding-left:45px;
+background-color:gray;
+width:100px;
+height:100px;
+overflow:scroll;
+
+}
+#kani{
+color:green;
+font-size:40px;
+margin:25px;
+}
+body:hover
+{
+color:blue;
+}
+p{
+border:5px solid red;
+float:left;
+border-radius:25px;
+}
+h2
+{
+border-top:5px solid green;
+border-bottom:5px dashed blue;
+border-left:5px dotted red;
+
+margin:25px 50px 5px 20px;
+padding:25px;
+padding-top:50px;
+text-shadow:2px 3px;
+}
+</style>
+</head>
+<body>
+<h2>hello</h2>
+<p>This is the default text direction.</p>
+
+<p class="ex1">This is right-to-left text direction.</p>
+<h1 class="ex1">kani</h1>
+<form>
+<div class="jeni">
+<label>name</label>
+<input type="text" size="50" placeholder="you have to enter your name" required>
+<label>date</label>
+<input type="date" id="kani">
+<label>time</label>
+<input type="time">
+</div><br>
+<div>
+<label>number</label>
+<input type="tel" pattern="[0-9]{10}" required>
+<label>email</label>
+<input type="email" id="kani">
+<label>password</label>
+<input type="password">
+<label>file</label>
+<input type="file"><br>
+<label>gender</label></div><br>
+<input type="radio" id="male" name="gender">
+<label id="kani">male</label>
+<input type="radio" id="female" name="gender">
+<label>female</label>
+<input type="radio" id="others" name="gender">
+<label>others</label><br>
+
+<label>payment</label><br>
+<input type="radio" id="cash" name="paymentmode">
+<label>cash</label>
+<input type="radio" id="credit" name="paymentmode">
+<label>credit</label>
+<br>
+
+<label>language known</label><br>
+<input type="checkbox" id="c" name="lang">
+<label>c</label>
+<input type="checkbox" id="java" name="lang">
+<label>java</label>
+<input type="checkbox" id="python" name="lang">
+<label>python</label><br>
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select><br>
+  
+    <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist><br>
+
+<label>product</label>
+<input type="number" min="20" max="50" >
+<label>mobile number</label>
+<input type="tel" pattern="[0-9]{10}">
+<input type="submit">
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YTR21os8gTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<pre>
+<h1><span style="color:green;">welcome
+
+
+          </span><sup>to </sup><i>my</i> page</h1>
+		  </pre>
+</form>
+<div>
+<p>hai</p>
+<h1>hello</h1>
+</div>
+</body>
+
+</html>
